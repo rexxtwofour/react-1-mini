@@ -52,7 +52,7 @@ class App extends Component {
             console.log('friends', friend);
             return (
               <div>
-                <p><img src = {friend.picture} alt= {friend.name}/> state.name</p>
+                <p><img src = {friend.picture} alt= {friend.name}/> {friend.name}</p>
               </div>
             )
           })}
